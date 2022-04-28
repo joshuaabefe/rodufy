@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* preloader */
+#preloader {
+  overflow: hidden;
+  background-color: #ea7052;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 99999;
+  color: #fff;
+}
+
+#preloader .jumper {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#preloader .jumper .spinner-border {
+  color: #301446;
+}
+
+/* fonts */
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* background color */
+.bgcolor {
+  background-color: #301446;
+  color: #fff;
+}/* fonts */
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* background color */
+.bgcolor {
+  background-color: #301446;
+  color: #fff;
+}

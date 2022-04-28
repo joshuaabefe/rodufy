@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=swap');
+
+/* navigation */
+button #navIcon {
+  color: #fff;
+  font-size: 1.35rem;
+  border-color: #fff;
+  border: #fff;
+}
+
+#buttonOne:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #fff;
+}
+
+#mainNav {
+  border-top: 2px solid #301446;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #ea7052;
+  transition: background-color 0.2s ease;
+}
+
+#mainNav .navbar-brand {
+  width: 25%;
+  height: auto;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+#mainNav .navbar-brand span {
+  color: #301446;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  margin: 0.5rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 2rem 0.75rem;
+  border: 0.125rem solid #301446;
+  background-color: transparent;
+  border-color: #301446;
+  transition: all 0.2s ease;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #fff;
+  background-color: #301446;
+}
+
+/* basic class for all containers */
+.basic-main {
+  padding: 0 0 1.5rem;
+}
+.basic {
+  padding: 2rem 0 1.5rem;
+}
+
+/* basic class for main tag*/
+.basic-main .text-container-main {
+  padding: 50px 0;
+}
+
+.basic-main h2 {
+margin-bottom: 1.375rem;
+  font-size: 2.5rem;
+}
+
+.basic-main p {
+  font-size: 1rem;
+}
+
+.basic-main h2 a {
+color: #ea7052;
+  text-decoration: underline #fff;
+}
+
+.download {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.download-link {
+  margin: 0 0.2rem;
+  padding: 0.85rem 1rem 0.85rem;
+  background-color: #fff;
+}
+
+.download-link img {
+  height: 2rem;
+}
+
+.basic-main .image-container-img {
+  width: 100%;
+  height: 22.5rem;
+} 
+
+/* basic class for first section tag*/
+.basic .text-container-main {
+  padding: 50px 0;
+}
+
+.basic h2 {
+margin-bottom: 1.375rem;
+  font-size: 2.5rem;
+}
+
+.basic p {
+  font-size: 1rem;
+}
+
+.basic h2 a {
+color: #ea7052;
+  text-decoration: underline #fff;
+}
+
+.basic .text-container-main .btn-discover {
+  padding: 0.75rem 1rem 0.75rem;
+border: 0.125rem solid #ea7052;
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: #ea7052;
+  border-color: #ea7052;
+}
+
+.basic .text-container-main .btn-discover:hover {
+  color: #301446;
+  background-color: transparent;
+  border-color: #ea7052;
+}
+
+.basic .first-image-container {
+  width: 100%;
+  height: 22.5rem;
+  background: url(../public/assets/img/photo-1549287748-f095932c9f81.avif) center/cover no-repeat;
+} 
+
+/* basic class for second section tag*/
+.contact {
+  min-width: auto; 
+  height: 100%; 
+  background: linear-gradient(to bottom, rgba(46, 128, 128, 0.747) 0%, rgba(0, 0, 0, 0.849) 100%), url("../public/assets/img/photo-1563033416-2c41a4da96e9.avif") center/cover fixed no-repeat;
+  color: #f8f9fa;
+}
+
+.contact-us {
+  margin: 0 0 0.75rem;
+}
+
+.contact-us img {
+  margin: 0 1rem 0 0;
+  height: 2rem;
+}
+
+li .contact-text a{ 
+  color: #fff;
+  text-decoration: none;
+}
+
+.basic .second-image-container {
+  width: 100%;
+  height: 22.5rem;
+  background: url(../public/assets/img/close-up-portrait-attractive-young-woman-isolated_273609-36519.webp) center/cover no-repeat;
+} 
+
+/* footer */
+.footer-title {
+  margin-bottom: 1.5rem;
+}
+
+.footer-title .navbar-brand {
+  width: 25%;
+  height: auto;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.footer-title .navbar-brand span {
+  color: #ea7052;
+}

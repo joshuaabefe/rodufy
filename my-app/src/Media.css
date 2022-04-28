@@ -1,0 +1,109 @@
+
+/* navigation */
+@media (min-width: 992px) {
+    /* main navigation */
+    #mainNav {
+      box-shadow: none;
+      background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+      width: 10%;
+      height: auto;
+      color: #fff;
+      font-size: 2rem;
+    }
+
+    #mainNav .navbar-brand span {
+      color: #ea7052;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+      color: #fff;
+      padding: 0.75rem 2rem 0.75rem;
+      border: 0.125rem solid #ea7052;
+      font-size: 0.95rem;
+      background-color: transparent;
+      border-color: #ea7052;
+      transition: all 0.2s ease;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #fff;
+      background-color: #ea7052;
+    }
+
+    .alert .announce {
+      color: #fff;
+      font-size: 1.5rem;
+  }
+ 
+}
+
+/* basic class for all containers */
+@media (min-width: 992px) {
+    .basic-main {
+        padding: 0 0 1.5rem;
+    }
+    .basic {
+        padding: 5rem 0 2.5rem;
+    }
+
+}
+
+/* basic class for main tag*/
+@media (min-width: 992px) {
+    .basic-main .text-container-main {
+        padding: 20% 5%;
+    }
+
+    .basic-main h2 {
+        font-size: 3.5rem;
+    }
+
+    .basic-main p {
+      font-size: 1.3rem;
+  }
+
+    .basic-main .image-container-img {
+        height: 32.5rem;
+    } 
+
+}
+
+/* basic class for first section tag*/
+@media (min-width: 992px) {
+  .basic .text-container-main {
+      padding: 20% 5%;
+  }
+
+  .basic h2 {
+      font-size: 3.5rem;
+  }
+
+  .basic p {
+    font-size: 1.3rem;
+}
+
+  .basic .text-container-main .btn-discover {
+    padding: 0.75rem 2rem 0.75rem;
+}
+
+.basic .image-container-img {
+    height: 65vh;
+} 
+
+.basic .first-image-container {
+    height: 100%;
+} 
+  
+}
+
+/* basic class for second section tag*/
+/* basic class for second section tag*/
+@media (min-width: 992px) {
+  .basic .second-image-container {
+    height: 100%;
+ } 
+    
+}
